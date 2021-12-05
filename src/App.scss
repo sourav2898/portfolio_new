@@ -78,11 +78,16 @@
 }
 
 .email a{
+    position: relative;
+    top: 0;
     color: var(--dark-slate);
-    &-hover{
-       color: crimson; 
-    }
     margin: 10px 0;
+    transition: ease 0.3s;
+}
+
+.email a:hover{
+    color: orangered;
+    top: -10px;
 }
 
 .email::after{

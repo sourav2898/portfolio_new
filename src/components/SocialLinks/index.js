@@ -4,6 +4,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import Facebook from '@material-ui/icons/Facebook';
 import Instagram from '@material-ui/icons/Instagram';
 import LinkedIn from '@material-ui/icons/LinkedIn';
+import Link from '@material-ui/core/Link';
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
@@ -46,10 +47,18 @@ const SocialLinks = () => {
     return (
         <> 
             <div className="section">
-                <GitHubIcon className={`${classes.icons} ${classes.github}`} />
-                <LinkedIn className={`${classes.icons} ${classes.LinkedIn}`} />
-                <Facebook className={`${classes.icons} ${classes.facebook}`} />
-                <Instagram className={`${classes.icons} ${classes.instagram}`} />
+                <Link href="https://github.com/sourav2898?tab=repositories" target="_blank">
+                    <GitHubIcon className={`${classes.icons} ${classes.github}`} />
+                 </Link>
+                 <Link href="https://www.linkedin.com/in/sourav-kumar-b514a0184/" target="_blank"> 
+                    <LinkedIn className={`${classes.icons} ${classes.LinkedIn}`} />
+                 </Link>
+                 <Link href="http://www.facebook.com/sourav.dubey28" target="_blank">
+                    <Facebook className={`${classes.icons} ${classes.facebook}`} />
+                 </Link>
+                 <Link href="http://instagram.com/cristiano_one8" target="_blank"> 
+                    <Instagram className={`${classes.icons} ${classes.instagram}`} />
+                 </Link>
                 <div className="line">  </div>
             </div>
         </>
