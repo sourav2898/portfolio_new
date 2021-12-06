@@ -46,7 +46,7 @@ const SocialLinks = () => {
     const classes = useStyles();
     return (
         <> 
-            <div className="section">
+            <div className="section" data-aos="fade-up">
                 <Link href="https://github.com/sourav2898?tab=repositories" target="_blank">
                     <GitHubIcon className={`${classes.icons} ${classes.github}`} />
                  </Link>

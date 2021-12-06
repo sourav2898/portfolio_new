@@ -1,0 +1,132 @@
+
+.about .title{
+    font-family: sans-serif;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    color: var(--green);
+}
+.about .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: var(--green);
+    transform: translateX(-50%);
+}
+
+.about .title::after{
+    content: "Who Am I";
+    position: absolute;
+    bottom:-12px;
+    left: 50%;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px;
+    background:var(--dark-navy);
+    transform: translateX(-50%);
+}
+
+.about{
+    margin: 10px 0;
+    padding: 20px;
+    &-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    &-info{
+        width: 60%;
+        color: var(--dark-slate);
+        line-height: 1.5;
+        letter-spacing: 2px;
+        font-size: var(--fz-lg);
+        padding: 10px;
+    }
+
+    &-pic{
+        width: 40%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 10px;
+        img{
+            width: 450px;
+            height: 450px;
+            object-fit: cover;
+            border-radius: 10px;
+            position: relative;
+            right: 0;
+            transition: transform .2s;
+            &:hover{
+                transform: translate(10px,-10px);
+            }
+        }
+    }
+}
+
+.wrapper{
+    position: relative;
+    margin: 10px 0;
+    .link_wrapper{
+        position: relative;
+      }
+      
+      a{
+        display: block;
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+        font-weight: bold;
+        text-decoration: none;
+        background: var(--lightest-navy);
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: 3px solid var(--lightest-navy);
+        transition: all .35s;
+      }
+      
+      .icon{
+        width: 50px;
+        height: 50px;
+        border: 3px solid transparent;
+        position: relative;
+        transform: rotate(45deg);
+        right: 0;
+        top: -50px;
+        z-index: -1;
+        transition: all .35s;
+      }
+      
+      .icon svg{
+        width: 30px;
+        position: absolute;
+        top: calc(50% - 15px);
+        left: calc(50% - 15px);
+        transform: rotate(-45deg);
+        fill: #2ecc71;
+        transition: all .35s;
+      }
+      
+      a:hover{
+        width: 200px;
+        border: 3px solid #2ecc71;
+        background: transparent;
+        color: #2ecc71;
+      }
+      
+      a:hover + .icon{
+        border: 3px solid #2ecc71;
+        right: -28%;
+      }
+  }
+  
+  
