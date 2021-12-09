@@ -22,7 +22,7 @@ const Home = () => {
             />
           </p>
           <p> I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. </p>
-          <a href="#contact" id="text-4">Hire me!</a>
+          <a href="#contact" id="text-4">HIRE ME!</a>
         </div>
       </div>
     )

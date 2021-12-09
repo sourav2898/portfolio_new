@@ -48,6 +48,45 @@
         letter-spacing: 2px;
         font-size: var(--fz-lg);
         padding: 10px;
+          
+        .coding_platforms{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+            a{
+                padding: 10px 30px;
+                border: 1px solid transparent;
+                border-radius: 10px;
+                transition: all .3s ease;
+                color: #fff;
+            }
+            .hackerrank{
+                background-color: #2ecc71;
+                 &:hover{
+                     background-color: transparent;
+                     color: #2ecc71;
+                     border: 1px solid #2ecc71;
+                 }
+            }
+            .leetcode{
+                background-color: #f5b051;
+                 &:hover{
+                     background-color: transparent;
+                     color: #f5b051;
+                     border: 1px solid #f5b051;
+                 }
+            }
+            .github{
+                background-color: #222;
+                 &:hover{
+                     background-color: transparent;
+                     color: var(--light-slate);
+                     border: 1px solid #222;
+                 }
+            }
+        }
     }
 
     &-pic{
@@ -128,5 +167,6 @@
         right: -28%;
       }
   }
+
   
   

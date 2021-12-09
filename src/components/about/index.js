@@ -11,7 +11,7 @@ const About = () => {
                     <p>
                         “My name is Sourav. I am from Dhanbad, Jharkhand, India. I graduated in 2020 with a bachelor’s degree in Computer Science and Engneering from Kolhan University. I am a full-time freelance web designer who specializes in creating beautiful, useable, professional website using best practice accessibility. All my sites are lovingly hand coded. I am a designer, developer, and overall thinker.My area of interest are Web development and competitive coding. Apart from academics I follow and play Football, Cricket and a big fan of Cristiano Ronaldo and Virat Kohli. Check out some of the links below to see what I’ve been up to lately.”
                     </p>
-                    <div class="wrapper">
+                    <div class="wrapper" data-aos="fade-right">
                         <div class="link_wrapper">
                             <a href="sourav_Kumar_cv.pdf">Download CV</a>
                             <div class="icon">
@@ -20,6 +20,11 @@ const About = () => {
                                 </svg>
                             </div>
                         </div>
+                    </div>
+                    <div class="coding_platforms" >
+                        <a target="_blank" class="hackerrank"  href="https://www.hackerrank.com/cristiano_one8?hr_r=1"><img src="images/hackerrank.png" alt=""/> HackerRank</a>
+                        <a target="_blank" class="leetcode" href="https://leetcode.com/cristiano_one8/"><img src="images/leetcode.png" alt=""/> LeetCode</a>
+                        <a target="_blank" class="github"  href="https://github.com/sourav2898"><img src="images/github.png" alt=""/> GitHub</a>
                     </div>
                 </div>
                 <div className="about-pic" data-aos="fade-left">
