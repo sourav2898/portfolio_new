@@ -93,7 +93,7 @@ const skills = [
 const Skills = () => {
     return (
         <div className="skills" id="skills">
-            <h2 className="title" data-aos="fade-up">Technologies</h2>
+            <h2 className="title" data-aos="fade-up">My Skills</h2>
             <div className="container">
                 {
                     skills.map((value,index) => {
