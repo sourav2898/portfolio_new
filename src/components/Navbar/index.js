@@ -19,8 +19,9 @@ const Navbar = () => {
                 <ul class="menu">
                     <li data-aos="fade-down"><a href="#home" class="menu-btn">Home</a></li>
                     <li data-aos="fade-down"><a href="#about" class="menu-btn">About</a></li>
-                    <li data-aos="fade-down"><a href="#service" class="menu-btn">Services</a></li>
+                    <li data-aos="fade-down"><a href="#services" class="menu-btn">Services</a></li>
                     <li data-aos="fade-down"><a href="#skills" class="menu-btn">Skills</a></li>
+                    <li data-aos="fade-down"><a href="#projects" class="menu-btn">Projects</a></li>
                     <li data-aos="fade-down"><a href="#contact" class="menu-btn">Contact</a></li>
                 </ul>
                 <div class="menu-btn">

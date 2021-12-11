@@ -7,7 +7,7 @@ import Typewriter from 'typewriter-effect';
 const Home = () => {
 
     return (
-      <div className="home" data-aos="fade-right">
+      <div className="home" data-aos="fade-right" id="home"> 
         <div className="home-container"> 
           <p> Hi, my name is </p>
           <p> Sourav Kumar. </p>

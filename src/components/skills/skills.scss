@@ -1,0 +1,83 @@
+.skills{
+    padding: 20px 0;
+
+    .title{
+        font-family: sans-serif;
+        position: relative;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 60px;
+        padding-bottom: 20px;
+        color: var(--blue);
+    }
+    .title::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 180px;
+        height: 3px;
+        background: var(--blue);
+        transform: translateX(-50%);
+    }
+    
+    .title::after{
+        content: "My Skills";
+        position: absolute;
+        bottom:-12px;
+        left: 50%;
+        font-size: 20px;
+        color: #fff;
+        padding: 5px;
+        background:var(--dark-navy);
+        transform: translateX(-50%);
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .rows{
+            margin: 30px;
+            img{
+                width: 150px;
+                height: 150px;
+                box-sizing: border-box;
+                border: 5px white solid;
+                border-radius: 50%;
+                overflow: hidden;
+                box-shadow: 0 5px 15px 0px var(--light-navy);
+                transform: translatey(0px);
+                animation: float 6s ease-in-out infinite;
+            }
+            h2{
+                text-align: center;
+                color: var(--light-slate);
+            }
+            &:hover{
+                    img{
+                        border: 5px var(--green) solid;
+                    }
+                    h2{
+                        color: var(--green);
+                    }
+            }
+        }
+    }
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px var(--light-navy);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px var(--navy);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px var(--light-navy);
+		transform: translatey(0px);
+	}
+}

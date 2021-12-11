@@ -1,0 +1,36 @@
+.project{
+    margin: 50px 0;
+
+    .title{
+        font-family: sans-serif;
+        position: relative;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 60px;
+        padding-bottom: 20px;
+        color: var(--blue);
+    }
+    .title::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 180px;
+        height: 3px;
+        background: var(--blue);
+        transform: translateX(-50%);
+    }
+    
+    .title::after{
+        content: "What I'm upto!";
+        position: absolute;
+        bottom:-12px;
+        left: 50%;
+        font-size: 20px;
+        color: #fff;
+        padding: 5px;
+        background:var(--dark-navy);
+        transform: translateX(-50%);
+    }
+}

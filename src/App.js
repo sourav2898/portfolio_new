@@ -7,6 +7,9 @@ import "aos/dist/aos.css";
 import StarfieldAnimation from 'react-starfield-animation'
 import SocialLinks from './components/SocialLinks';
 import About from './components/about';
+import Skills from './components/skills';
+import Services from './components/services';
+import Projects from './components/projects';
 
 function App() {
   useEffect(() => {
@@ -35,6 +38,9 @@ function App() {
         <div className="main-comp">
           <Home />
           <About />
+          <Services />
+          <Skills />
+          <Projects />
         </div>
     </div>
     {/*  */}

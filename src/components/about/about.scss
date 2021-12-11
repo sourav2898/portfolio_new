@@ -7,7 +7,7 @@
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    color: var(--green);
+    color: var(--blue);
 }
 .about .title::before{
     content: "";
@@ -16,7 +16,7 @@
     left: 50%;
     width: 180px;
     height: 3px;
-    background: var(--green);
+    background: var(--blue);
     transform: translateX(-50%);
 }
 

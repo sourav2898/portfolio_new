@@ -1,10 +1,11 @@
 import React, { useRef, useState } from 'react'
 import './about.scss'
 import pic from '../../assets/body.jpg';
+
 const About = () => {
     
     return (
-        <div className="about" >
+        <div className="about" id="about">
             <h2 class="title" data-aos="fade-up">About Me</h2>
             <div className="about-container">
                 <div className="about-info" data-aos="fade-right">
@@ -21,7 +22,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="coding_platforms" >
+                    <div class="coding_platforms">
                         <a target="_blank" class="hackerrank"  href="https://www.hackerrank.com/cristiano_one8?hr_r=1"><img src="images/hackerrank.png" alt=""/> HackerRank</a>
                         <a target="_blank" class="leetcode" href="https://leetcode.com/cristiano_one8/"><img src="images/leetcode.png" alt=""/> LeetCode</a>
                         <a target="_blank" class="github"  href="https://github.com/sourav2898"><img src="images/github.png" alt=""/> GitHub</a>
