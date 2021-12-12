@@ -59,7 +59,7 @@ const Projects = () => {
             <div className="container">
                 {
                     projects.map((value,index) => {
-                        return <div className="row" key={index} data-aos="flip-left"> 
+                        return <Link target="_blank" href={value.visit} className="row" key={index} data-aos="flip-left"> 
                         <div className="header">
                             <h2> {value.name} </h2> 
                             <div>
@@ -86,7 +86,7 @@ const Projects = () => {
                                 })
                             }
                         </p>
-                    </div>
+                    </Link>
                     })
                 }
             </div>

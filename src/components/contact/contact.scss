@@ -1,0 +1,87 @@
+.contact{
+    margin: 50px 0;
+
+    .title{
+        font-family: sans-serif;
+        position: relative;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 60px;
+        padding-bottom: 20px;
+        color: var(--blue);
+    }
+    .title::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 180px;
+        height: 3px;
+        background: var(--blue);
+        transform: translateX(-50%);
+    }
+    
+    .title::after{
+        content: "Get In Touch";
+        position: absolute;
+        bottom:-12px;
+        left: 50%;
+        font-size: 20px;
+        color: #fff;
+        padding: 5px;
+        background:var(--dark-navy);
+        transform: translateX(-50%);
+    }
+
+    .form{
+        .text{
+            color: var(--green);
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        label{
+            color: var(--blue);
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+
+        input, textarea{
+            border-radius: 10px;
+            padding: 10px;
+            width: 100%;
+            font-size: 15px;
+            outline: none;
+        }
+
+        .errorInput{
+            border: 1px solid crimson;
+        }
+
+        .error{
+            color: crimson;
+            font-size: 15px;
+        }
+
+        button{
+            background-color: var(--blue);
+            border: 2px solid transparent;
+            color: #fff;
+            font-size: 25px;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            transition:  all .3s ease;
+            cursor: pointer;
+
+            &:hover{
+                color: var(--blue);
+                border: 2px solid var(--blue);
+                background-color: #fff;
+            }
+        }
+    }
+}
