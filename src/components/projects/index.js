@@ -91,7 +91,7 @@ const Projects = () => {
                 }
             </div>
             <div className="more" >
-                <p> To see more of projects please visit : <Link target="_blank" href="https://github.com/sourav2898?tab=repositories" > GitHub </Link> | <Link target="_blank" href="https://vercel.com/dashboard"> Vercel </Link> </p>
+                <p> To see more of my projects please visit : <Link target="_blank" href="https://github.com/sourav2898?tab=repositories" > GitHub </Link> | <Link target="_blank" href="https://vercel.com/dashboard"> Vercel </Link> </p>
             </div>
         </div>
     )

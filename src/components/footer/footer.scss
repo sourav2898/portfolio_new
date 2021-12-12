@@ -1,6 +1,9 @@
 .footer{
     padding: 20px;
     text-align: center;
+    &-social{
+        display: none;
+    }
     .footer_ele{
         text-align: center;
         font-size: 15px;
@@ -9,6 +12,15 @@
         &:hover{
             color: var(--green);
             text-decoration: none;
+        }
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .footer{
+        &-social{
+            display: block;
         }
     }
 }

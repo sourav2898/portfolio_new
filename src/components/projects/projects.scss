@@ -111,3 +111,11 @@
         }
     }
 }
+
+@media screen and (max-width:600px){
+    .project .more{
+        p{
+            font-size: var(--fz-md);
+        }
+    }
+}

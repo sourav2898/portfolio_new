@@ -86,3 +86,13 @@
         }
     }
 }
+
+@media screen and (max-width:600px){
+    .contact .form{
+        padding: 10px;
+
+        button{
+            font-size: var(--fz-lg);
+        }
+    }
+}

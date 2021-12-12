@@ -88,5 +88,13 @@
     .serv-content .card:hover p span{
         color: var(--green);
     }
-    
+}
+
+@media screen and (max-width:600px){
+    .services{
+        .serv-content .card{
+            width: 100%;
+            font-size: var(--fz-md);
+        }
+    }
 }

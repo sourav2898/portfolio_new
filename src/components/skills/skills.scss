@@ -40,6 +40,7 @@
         justify-content: space-around;
         .rows{
             margin: 30px;
+            text-align: center;
             img{
                 width: 150px;
                 height: 150px;
@@ -80,4 +81,17 @@
 		box-shadow: 0 5px 15px 0px var(--light-navy);
 		transform: translatey(0px);
 	}
+}
+
+@media screen and (max-width:600px){
+    .skills{
+        .container{
+            .rows{
+                img{           
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+    }
 }

@@ -2,7 +2,6 @@ import React, {useEffect} from 'react'
 import './navbar.scss'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import SocialLinks from '../SocialLinks';
 
 const Navbar = () => {
     useEffect(() => {
@@ -13,20 +12,17 @@ const Navbar = () => {
       }, []);
 
     return (
-        <nav class="navbar" id="navbar">
-            <div class="max-width">
-                <div data-aos="fade-down" class="logo"><a href="#home">Portfo<span>lio</span></a></div>
-                <ul class="menu">
-                    <li data-aos="fade-down"><a href="#home" class="menu-btn">Home</a></li>
-                    <li data-aos="fade-down"><a href="#about" class="menu-btn">About</a></li>
-                    <li data-aos="fade-down"><a href="#services" class="menu-btn">Services</a></li>
-                    <li data-aos="fade-down"><a href="#skills" class="menu-btn">Skills</a></li>
-                    <li data-aos="fade-down"><a href="#projects" class="menu-btn">Projects</a></li>
-                    <li data-aos="fade-down"><a href="#contact" class="menu-btn">Contact</a></li>
+        <nav className="navbar" id="navbar">
+            <div className="max-width">
+                <div data-aos="fade-down" className="logo"><a href="#home">Portfo<span>lio</span></a></div>
+                <ul className="menu">
+                    <li data-aos="fade-down"><a href="#home" className="menu-btn">Home</a></li>
+                    <li data-aos="fade-down"><a href="#about" className="menu-btn">About</a></li>
+                    <li data-aos="fade-down"><a href="#services" className="menu-btn">Services</a></li>
+                    <li data-aos="fade-down"><a href="#skills" className="menu-btn">Skills</a></li>
+                    <li data-aos="fade-down"><a href="#projects" className="menu-btn">Projects</a></li>
+                    <li data-aos="fade-down"><a href="#contact" className="menu-btn">Contact</a></li>
                 </ul>
-                <div class="menu-btn">
-                    <i class="fas fa-bars"></i>
-                </div>
             </div>
         </nav>
     )
