@@ -1,0 +1,14 @@
+.footer{
+    padding: 20px;
+    text-align: center;
+    .footer_ele{
+        text-align: center;
+        font-size: 15px;
+        color: var(--lightest-slate);
+        font-weight: 500;
+        &:hover{
+            color: var(--green);
+            text-decoration: none;
+        }
+    }
+}

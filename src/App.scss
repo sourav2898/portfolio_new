@@ -99,3 +99,14 @@
 }
 
 
+@media screen and (max-width:600px){
+    .main-comp{
+        width: 100%;
+    }
+    .social-links{
+        display: none;
+    }
+    .email{
+        display: none;
+    }
+}
