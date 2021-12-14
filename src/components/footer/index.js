@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
         transition: "top ease 0.5s",
     },
     github:{
-        color: "black",
+        color: "gray",
         '&:hover': {
             top:"-2px"
         },
