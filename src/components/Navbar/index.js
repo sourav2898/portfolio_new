@@ -23,6 +23,9 @@ const Navbar = () => {
                     <li data-aos="fade-down"><a href="#projects" className="menu-btn">Projects</a></li>
                     <li data-aos="fade-down"><a href="#contact" className="menu-btn">Contact</a></li>
                 </ul>
+                <div className="mobile"> 
+                    Hii
+                </div>
             </div>
         </nav>
     )
