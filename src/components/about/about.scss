@@ -54,7 +54,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            
+            padding: 20px 0; 
             a{
                 padding: 10px 30px;
                 border: 1px solid transparent;
@@ -186,6 +186,7 @@
               font-size: var(--fz-md);
 
               .coding_platforms{
+                  padding: 20px 0; 
                   a{
                       width: 100%;
                       text-align: center;
