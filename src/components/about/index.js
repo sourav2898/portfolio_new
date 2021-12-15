@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 import './about.scss'
-import pic from '../../assets/body.jpg';
+import pic from '../../assets/about_pic.jpg';
 
 const About = () => {
     
@@ -10,7 +10,7 @@ const About = () => {
             <div className="about-container">
                 <div className="about-info" data-aos="fade-right">
                     <p>
-                        “My name is Sourav. I am from Dhanbad, Jharkhand, India. I graduated in 2020 with a bachelor’s degree in Computer Science and Engneering from Kolhan University. I am a full-time freelance web designer who specializes in creating beautiful, useable, professional website using best practice accessibility. All my sites are lovingly hand coded. I am a designer, developer, and overall thinker.My area of interest are Web development and competitive coding. Apart from academics I follow and play Football, Cricket and a big fan of Cristiano Ronaldo and Virat Kohli. Check out some of the links below to see what I’ve been up to lately.”
+                        “My name is Sourav. I am from Dhanbad, Jharkhand, India. I graduated in 2020 with a bachelor’s degree in Computer Science and Engneering from Kolhan University. I am a software engineer and a part-time freelance web designer who specializes in creating beautiful, useable, professional website using best practice accessibility. All my sites are lovingly hand coded. I am a designer, developer, and overall thinker.My area of interest are Web development and competitive coding. Apart from academics I follow and play Football, Cricket and a big fan of Cristiano Ronaldo and Virat Kohli. Check out some of the links below to see what I’ve been up to lately.”
                     </p>
                     {/* <div class="wrapper" data-aos="fade-right">
                         <div class="link_wrapper">
